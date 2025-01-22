@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = new int(10); // Allocate memory on the heap *ptr = x; // Use the allocated memory delete ptr; // Correctly free the allocated memory ptr = nullptr; // Set ptr to null to prevent dangling pointers return 0; }
